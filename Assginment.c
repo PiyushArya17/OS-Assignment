@@ -21,15 +21,18 @@ void *function( void *num1){
 int d = (int)num1;
 int i,flag=0;
 
-for(i=2;i<=d/2;++i){
+for(i=2;i<=d/2;++i)
+{
 if(d%i==0){
     flag = 1;
     break;
 }
 }
-if (flag==0) {
+if (flag==0) 
+{
 printf("It is a Prime Number");
-}else{
+}else
+{
 printf("It is not a Prime Number");
 }
 
