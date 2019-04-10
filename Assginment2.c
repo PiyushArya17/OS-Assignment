@@ -1,7 +1,20 @@
+
+
+
+
+
+
+
+
+
+
+
+
 #include<stdio.h>
 #include<conio.h>
 
-int main(){
+int main()
+{
 int i,j,f=0,count = 0,k,l;
 int process,resources;
 
@@ -28,8 +41,10 @@ for (i = 0; i < process; i++)
 printf("Enter Allocation \n");
 // Allocation Input
 
-for(i=0;i<process;i++){
- for(j=0;j<resources;j++){
+for(i=0;i<process;i++)
+{
+ for(j=0;j<resources;j++)
+ {
         scanf("%d",&Allocation[i][j]);
     } 
     printf("\n");
@@ -39,8 +54,10 @@ printf("Enter max_available curr_need \n");
 
 // max_available curr_need Input
 
-for(i=0;i<process;i++){
- for(j=0;j<resources;j++){
+for(i=0;i<process;i++)
+{
+ for(j=0;j<resources;j++)
+ {
         scanf("%d",&max_available[i][j]);
     } 
     printf("\n");
